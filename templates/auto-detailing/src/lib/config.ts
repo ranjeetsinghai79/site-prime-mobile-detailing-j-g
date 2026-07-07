@@ -3,53 +3,54 @@ import type { SiteConfig } from "@core/web/types"
 export const config: SiteConfig = {
   business: {
     name: "Prime Mobile Detailing J&G",
-    tagline: "Restoring your car's perfect shine.",
-    phone: "(555) 486-2791",
-    phoneHref: "tel:+15554862791",
-    email: "contact@primemobiledetailingjg.com",
-    address: "",
-    city: "",
-    serviceAreas: [],
-    since: "2018",
+    tagline: "Bringing showroom shine to you.",
+    phone: "(XXX) XXX-XXXX",
+    phoneHref: "tel:+1XXXXXXXXXX",
+    email: "...",
+    address: "...",
+    city: "...",
+    serviceAreas: ["..."],
+    license: "...",
+    since: "...",
     google_rating: "4.9",
-    review_count: "150",
+    review_count: "50",
     emergency: false,
     theme: "clean",
     niche: "auto-detailing",
   },
 
   services: [
-    { icon: "shield-check", title: "Ceramic Coating", desc: "Provides long-lasting hydrophobic protection and a brilliant, glossy finish for your vehicle's paint.", urgent: false },
-    { icon: "sparkles", title: "Paint Correction", desc: "Removes swirls, scratches, and imperfections to restore your paint to a flawless, mirror-like shine.", urgent: false },
-    { icon: "star", title: "Full Detail Package", desc: "Our most comprehensive service, cleaning and restoring every inch of your vehicle inside and out.", urgent: false },
-    { icon: "home", title: "Interior Detail", desc: "Deep cleans and conditions all interior surfaces, from carpets and upholstery to dash and door panels.", urgent: false },
-    { icon: "shield-check", title: "Paint Protection Film (PPF)", desc: "Applies a clear, durable film to high-impact areas to guard against rock chips, scratches, and road debris.", urgent: false },
-    { icon: "scissors", title: "Window Tinting", desc: "Enhances privacy, reduces heat and glare, and protects your interior from harmful UV rays.", urgent: false }
+    { icon: "sparkles", title: "Ceramic Coating", desc: "Protect your paint with a durable, high-gloss ceramic layer for ultimate shine.", urgent: false },
+    { icon: "wrench", title: "Paint Correction", desc: "Remove swirls, scratches, and imperfections to restore your paint's original luster.", urgent: false },
+    { icon: "star", title: "Full Detail Package", desc: "A comprehensive interior and exterior cleaning to bring your car back to life.", urgent: false },
+    { icon: "home", title: "Interior Detail", desc: "Deep clean and condition every surface inside your vehicle for a fresh feel.", urgent: false },
+    { icon: "shield-check", title: "Paint Protection Film (PPF)", desc: "Apply a clear, self-healing film to guard against rock chips and scratches.", urgent: false },
+    { icon: "scissors", title: "Window Tinting", desc: "Enhance privacy, reduce heat, and protect your interior with professional window films.", urgent: false }
   ],
 
   testimonials: [
-    { name: "Jessica L.", location: "Local Area", stars: 5, text: "I was absolutely blown away by the paint correction. My 5-year-old black SUV had so many swirl marks, I thought it was a lost cause. The team at Prime Mobile Detailing made it look better than new. The reflection is crystal clear now. Worth every penny!" },
-    { name: "Mark T.", location: "Local Area", stars: 5, text: "The convenience of their mobile service is unmatched. They came to my office, and by the time I finished work, my car was transformed. The interior detail was meticulous; they got rid of coffee stains I'd given up on. Professional, punctual, and incredible results." },
-    { name: "Samantha R.", location: "Local Area", stars: 5, text: "I opted for the ceramic coating, and the difference is night and day. Water just beads up and rolls right off, making washes so much easier. The depth and gloss they achieved are stunning. It's like my car is permanently wrapped in glass. Highly recommend their expertise." }
+    { name: "Michael R.", location: "...", stars: 5, text: "J&G's mobile service is a game-changer. They came right to my office and completely transformed my car. The paint correction they performed made my 5-year-old BMW look brand new. The attention to detail was incredible, from the wheels to the interior stitching. Absolutely worth it." },
+    { name: "Jessica L.", location: "...", stars: 5, text: "I was hesitant about ceramic coating, but the team at Prime Mobile Detailing explained the process so clearly. The result is stunning! Water just beads off, and the gloss is insane. Their professionalism and meticulous work have earned them a customer for life. Highly recommend their services." },
+    { name: "David C.", location: "...", stars: 5, text: "Wow! I got the Full Detail Package for my SUV after a long road trip with the kids, and it looks better than the day I bought it. They removed stains I thought were permanent. It feels so good to drive a truly clean car again. Exceptional service and value." }
   ],
 
   trustBadges: [
-    "Licensed & Insured", "Mobile Service To You", "Ceramic Coating Experts", "Showroom Finish Guarantee", "Premium Products Used"
+    "Licensed & Insured", "Ceramic Coating Specialists", "Mobile Service To You", "Premium Products Used", "Satisfaction Guaranteed"
   ],
 
   stats: [
     { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
-    { value: 500, label: "Cars Detailed", suffix: "+", decimals: 0 },
-    { value: 10, label: "Yrs Combined Exp.", suffix: "+", decimals: 0 }
+    { value: 50, label: "5-Star Reviews", suffix: "+", decimals: 0 },
+    { value: 10, label: "Years Experience", suffix: "+", decimals: 0 }
   ],
 
   reasons: [
-    { icon: "award",       title: "Certified Technicians",    desc: "Our detailers are professionally trained and certified, ensuring your vehicle receives expert care and flawless results." },
-    { icon: "shield-check",title: "Ceramic Coating Specialists", desc: "We specialize in applying premium ceramic coatings for unmatched gloss, protection, and long-lasting durability." },
-    { icon: "truck",       title: "We Come To You",           desc: "Enjoy premium detailing services at your home or office with our fully-equipped, self-contained mobile units." },
-    { icon: "star",        title: "Showroom Finish Guarantee",desc: "We're not satisfied until your car looks absolutely pristine. We guarantee a finish that will turn heads." },
-    { icon: "sparkles",    title: "Premium Products Only",    desc: "We use only the highest quality, industry-leading products and tools to ensure the best possible care for your vehicle." },
-    { icon: "dollar-sign", title: "Transparent Pricing",      desc: "Receive a clear, detailed quote before any work begins. No hidden fees, just honest and fair pricing for exceptional service." }
+    { icon: "award",       title: "Certified Technicians",  desc: "Our team holds certifications in modern detailing techniques, ensuring expert care for your vehicle." },
+    { icon: "sparkles",    title: "Ceramic Coating Specialists", desc: "We specialize in applying professional-grade ceramic coatings for long-lasting protection and shine." },
+    { icon: "truck",       title: "Convenient Mobile Service",     desc: "We bring our fully equipped, professional detailing studio directly to your home or office." },
+    { icon: "star",        title: "Guaranteed Showroom Finish",   desc: "We're not satisfied until your vehicle has that stunning, better-than-new showroom look." },
+    { icon: "shield-check",title: "Premium Products Only",        desc: "We exclusively use high-end, tested products to ensure the best results and protection for your car." },
+    { icon: "dollar-sign", title: "Transparent Pricing",      desc: "Receive a clear, detailed quote before any work begins. No surprises, just exceptional value." }
   ],
 
   formServiceOptions: ["Ceramic Coating", "Paint Correction", "Full Detail Package", "Interior Detail", "Paint Protection Film (PPF)", "Window Tinting"]
