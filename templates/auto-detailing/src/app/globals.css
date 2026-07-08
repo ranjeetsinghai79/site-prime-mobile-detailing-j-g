@@ -52,3 +52,16 @@
   --brand-grad-to: #2563EB;
   --shadow-cta: 0 8px 32px -4px rgba(37,99,235,0.35);
 }
+
+/* ── Design Profile: Glassmorphism Modern ── */
+/* ── Fonts: Instrument Serif + Instrument Sans ── */
+:root {
+  --font-display: 'Instrument Serif', serif;
+  --font-body: 'Instrument Sans', sans-serif;
+  --brand-accent: #2563EB;
+  --brand-accent-light: #3B82F6;
+  --brand-accent-glow: rgba(37,99,235,0.25);
+  --brand-grad-from: #3B82F6;
+  --brand-grad-to: #2563EB;
+  --shadow-cta: 0 8px 32px -4px rgba(37,99,235,0.35);
+}
