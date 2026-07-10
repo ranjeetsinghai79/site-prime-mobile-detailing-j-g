@@ -2,7 +2,6 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,8 +14,6 @@ jobs:
         run: npm install --legacy-peer-deps
       - name: Build
         run: npm run build --workspace=templates/auto-detailing
-      - name: Remove files exceeding CF Pages 25 MiB limit
-        run: find templates/auto-detailing/out -size +24M -delete 2>/dev/null || true
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
